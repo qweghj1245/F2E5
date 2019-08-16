@@ -230,7 +230,7 @@ const gamePlay = {
         this.footer2.tilePositionX += 2;
         this.footer3.tilePositionX += 2;
 
-        if (this.TimeStep < 60 && this.TimeStep > 30) {
+        if (this.TimeStep < 60 && this.TimeStep >= 30) {
             this.monsterArr[this.masIdx].x -= 4;
             this.monsterArrt[this.masIdx2].x -= 6;
             this.monsterArrs[this.masIdx4].x -= 6;
